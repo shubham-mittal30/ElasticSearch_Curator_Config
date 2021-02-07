@@ -1,0 +1,20 @@
+client:
+  hosts:
+    - 192.168.x.x
+  port: 9200
+  url_prefix:
+  use_ssl: false
+  certificate:
+  client_cert:
+  client_key:
+  ssl_no_validate: false
+  username:
+  password:
+  timeout: 30
+  master_only: false
+
+logging:
+  loglevel: INFO
+  logfile: logfile.log
+  logformat: default
+  blacklist: ['elasticsearch', 'urllib3']
