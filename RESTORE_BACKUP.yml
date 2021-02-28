@@ -14,7 +14,7 @@ actions:
     options:
       repository: "ESCluster_Backup"
       name:
-      indices: ["janrms22"]
+      indices: ["esindex"]
       wait_for_completion: true
     filters:
       - filtertype: state
